@@ -12,6 +12,7 @@ Space Complexity: O(1)          so, (n) + (n) = o(2n) = o(n)
 using namespace std;
 
 int emre;
+int ahmet;
 
 class Solution {
 public:
