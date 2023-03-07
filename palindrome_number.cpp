@@ -11,6 +11,8 @@ Space Complexity: O(1)          so, (n) + (n) = o(2n) = o(n)
 
 using namespace std;
 
+int emre;
+
 class Solution {
 public:
     bool isPalindrome(int x) {
