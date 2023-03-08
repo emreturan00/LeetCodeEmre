@@ -42,10 +42,3 @@ public:
         return triangle;
     }
 };
-
-int main()
-{
-    Solution emre;
-
-    emre.generate(3);
-}
