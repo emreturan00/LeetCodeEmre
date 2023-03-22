@@ -50,10 +50,23 @@ int main()
 
     vector<int>arr;
 
-    vector <int> res = emre.getRow(9, 0, arr);
+    vector <int> res = emre.getRow(33, 0, arr);
+
+    res.
 
     for (int i = 0; i < res.size(); i++)
     {
         cout << res[i] << " ";
     }
+}
+
+
+
+int sumBinary(int* a, int i, int n)
+{
+    if(n==1)
+        return a[i];
+    int left = sumBinary(a, i, n/2);
+    int right = sumBinary(a, i+n/2, n/2);
+    return left + right;
 }
